@@ -9,15 +9,15 @@ export default function Footer() {
       <div className="container mx-auto px-6">
         <div className="flex flex-wrap justify-between items-center">
           <div className="w-full md:w-1/3 text-center md:text-left mb-6 md:mb-0">
-            <h3 className="text-2xl font-semibold text-neon-green">Your Name</h3>
+            <h3 className="text-2xl font-semibold text-neon-green">Zubair Ahmed</h3>
             <p className="mt-2 text-gray-300">Full Stack Developer</p>
           </div>
           <div className="w-full md:w-1/3 text-center mb-6 md:mb-0">
             <motion.div className="flex justify-center space-x-6">
               {[
                 { Icon: FaTwitter, url: "#", color: "text-neon-blue" },
-                { Icon: FaLinkedin, url: "#", color: "text-neon-blue" },
-                { Icon: FaGithub, url: "#", color: "text-neon-pink" },
+                { Icon: FaLinkedin, url: "https://www.linkedin.com/feed/", color: "text-neon-blue" },
+                { Icon: FaGithub, url: "https://github.com/codewithzubi", color: "text-neon-pink" },
               ].map((social, index) => (
                 <motion.a
                   key={index}
@@ -32,7 +32,7 @@ export default function Footer() {
             </motion.div>
           </div>
           <div className="w-full md:w-1/3 text-center md:text-right">
-            <p className="text-neon-yellow">&copy; 2023 Your Name. All rights reserved.</p>
+            <p className="text-neon-yellow">&copy; 2025 Zubair Ahmed. All rights reserved.</p>
           </div>
         </div>
       </div>

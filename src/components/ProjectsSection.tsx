@@ -25,12 +25,12 @@ const ProjectsSection: React.FC = () => {
   const projectsData: Project[] = [
     {
       id: 1,
-      title: "React Portfolio Website",
+      title: "Nextjs Portfolio Website",
       description: "Project 1 description",
       image: "/images/projects/1.png",
       tag: ["All", "Web"],
       gitUrl: "/",
-      previewUrl: "/",
+      previewUrl: "https://devportfoliowebsite.vercel.app/",
     },
     {
       id: 2,
